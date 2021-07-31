@@ -21,3 +21,30 @@ Parquet has helped its users reduce storage requirements by at least one-third o
 
 ![image](https://user-images.githubusercontent.com/50926437/126944456-d7d99b99-9120-4eee-8c10-db7861e1523b.png)
 
+
+#### Data columns
+There are different features in the dataset. `gender` is what we are looking for, but we have also `games`, `apps`, `queries`, and `birth_year`. `games`, `apps`, and `queries` are ids.
+
+The problem here is that these 3 columns are list values.
+
+I turned them into individual columns.
+
+## Models
+Different models trained for classifications such as:
+* Logistic regression
+* KNN
+* Random Forest
+* Decision Tree
+* Dense neural network
+
+here the parameter which was important was `balanced_accuracy` which NN reaced near 74 for this value. Also here is other results:
+```
+Accuracy:  0.8110490378646803
+Balanced Accuracy:  0.7446944528323681
+Precision:  0.8657574761748275
+Recall:  0.8819886173418146
+F1:  0.8737976782752902
+```
+
+*Made by Amirhossein Abaskohi*
+
