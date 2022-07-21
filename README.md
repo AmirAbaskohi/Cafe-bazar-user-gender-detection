@@ -1,6 +1,5 @@
 # Cafe bazar user gender detection
-
-This is a gender detection model base on applications each user used. The data used for models is for Cafe Bazar and Iranian android app store.
+This project is a gender detection model based on applications each user has used. The data used for models is for Cafe Bazar, an Iranian android app store.
 
 ## Data
 There is a `parquet` file which is related to data.
